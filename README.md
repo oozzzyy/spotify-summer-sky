@@ -1,6 +1,6 @@
 # Spotify Summer Sky
 
-A navy [Spicetify](https://spicetify.app) theme with a see-through interface, plus a progress bar that moves like living water.
+A reworked version of the [Summer Sky](https://github.com/Adrien5902/SpicetifyCat/tree/main/themes/Summer_Sky) theme from [SpicetifyCat](https://github.com/Adrien5902/SpicetifyCat) by Adrien5902, for [Spicetify](https://spicetify.app). It was not built from scratch: the original theme was rebuilt into a navy, see-through look. A progress bar that moves like living water comes with it.
 
 [Русская версия](README.ru.md)
 
@@ -37,7 +37,7 @@ The bar reacts to the track's loudness and calms down on pause. Seeking works as
 
 ## Credits
 
-The theme is a modified version of [SpicetifyCat](https://github.com/Adrien5902/SpicetifyCat) by Adrien5902, under the MIT license. The background and "Liked Songs" images are not stored here: `theme.js` loads them from the original repository. All rights to them stay with their authors, and the background art is signed by Aeuna.
+The theme is a modified version of [Summer Sky](https://github.com/Adrien5902/SpicetifyCat/tree/main/themes/Summer_Sky) from [SpicetifyCat](https://github.com/Adrien5902/SpicetifyCat) by Adrien5902, under the MIT license. The original is the starting point, so go there for the theme as its author made it. The background and "Liked Songs" images are not stored here: `theme.js` loads them from the original repository. All rights to them stay with their authors, and the background art is signed by Aeuna.
 
 Spotify updates can rename the interface classes this theme relies on, so parts of it may stop working after an update.
 

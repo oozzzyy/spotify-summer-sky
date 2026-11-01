@@ -1,6 +1,6 @@
 # Spotify Summer Sky
 
-Тёмно-синяя тема [Spicetify](https://spicetify.app) с прозрачным интерфейсом и строка прогресса, которая движется как живая вода.
+Переработанная версия темы [Summer Sky](https://github.com/Adrien5902/SpicetifyCat/tree/main/themes/Summer_Sky) из [SpicetifyCat](https://github.com/Adrien5902/SpicetifyCat) от Adrien5902 для [Spicetify](https://spicetify.app). Тема сделана не с нуля: оригинал пересобран в тёмно-синий прозрачный вид. В комплекте строка прогресса, которая движется как живая вода.
 
 [English version](README.md)
 
@@ -37,7 +37,7 @@ spicetify apply
 
 ## Авторы
 
-Тема основана на [SpicetifyCat](https://github.com/Adrien5902/SpicetifyCat) от Adrien5902, лицензия MIT. Фон и картинка «Любимых треков» здесь не хранятся: `theme.js` загружает их из оригинального репозитория. Все права на них остаются у авторов, фон подписан Aeuna.
+Тема основана на [Summer Sky](https://github.com/Adrien5902/SpicetifyCat/tree/main/themes/Summer_Sky) из [SpicetifyCat](https://github.com/Adrien5902/SpicetifyCat) от Adrien5902, лицензия MIT. Оригинал стал отправной точкой, и тему в авторском виде стоит смотреть там. Фон и картинка «Любимых треков» здесь не хранятся: `theme.js` загружает их из оригинального репозитория. Все права на них остаются у авторов, фон подписан Aeuna.
 
 Обновления Spotify могут переименовать классы интерфейса, на которые опирается тема, поэтому после обновления что-то может перестать работать.
 
