@@ -2,7 +2,11 @@
 
 A navy [Spicetify](https://spicetify.app) theme with a see-through interface, plus a progress bar that moves like living water.
 
-<!-- Add a screenshot and a GIF of the wave bar here: docs/ -->
+![Illustration: the wave progress bar](docs/wave-bar.svg)
+
+![Preview of the original Summer Sky theme](https://github.com/Adrien5902/SpicetifyCat/blob/main/themes/Summer_Sky/preview.png?raw=true)
+
+*Preview of the original Summer Sky sub-theme by Adrien5902. This version is darker and more see-through.*
 
 Each part works without the other.
 
