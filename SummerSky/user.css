@@ -1,0 +1,336 @@
+* {
+    --spice-main-elevated: rgba(12, 30, 66, 0.5);
+}
+
+/* ------------------------------ */
+/* Replace neutral greys with navy */
+/* ------------------------------ */
+
+.encore-dark-theme,
+.encore-dark-theme .encore-base-set {
+    --background-elevated-base: rgba(12, 30, 66, 0.96) !important;
+    --background-elevated-highlight: rgba(32, 62, 112, 0.96) !important;
+}
+
+/* Colored gradient blocks on playlist, artist and home pages */
+.IfBZ5VdI_2nwDMl4H6Yh,
+.kMaYBahSBLOnErF7DLR2,
+.r8bczAWCEgb9_L0iyIcc,
+.main-view-container div[style^="background-color: rgb"]:empty {
+    display: none !important;
+}
+
+/* Sticky bar with the page title when scrolling */
+.main-topBar-background,
+.ZQAU4ZFMoSBS3UcYos3k,
+#main-view div[style*="opacity"][style*="--background-base"],
+.rrn0EjHTu7eCxn9G0Rrc.iPo4a2lbrsxW9Iedav3h {
+    background-color: transparent !important;
+    background-image: none !important;
+    backdrop-filter: blur(24px);
+}
+
+/* Right panel: only the shared see-through layer stays */
+.xyTYq7imng71iO6y2eGQ,
+.vVF0gCDG9l8RCOK3_2kw,
+#Desktop_PanelContainer_Id .main-nowPlayingView-headerWrapper {
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+/* Cards inside the right panel */
+.yUjdM2oRRn7kw8tR1rqV,
+[data-testid="lyrics-npv-section"] {
+    background-color: rgba(12, 30, 66, 0.55) !important;
+    background-image: none !important;
+}
+
+/* Search field and round top bar buttons */
+[class*="form-input"],
+.webE_oBiKCems7iUXKoY,
+.iHJ6_yPvPOWhaNcXElNZ,
+[data-testid="user-widget-link"],
+#global-nav-bar [class*="legacy-button-tertiary"] {
+    background-color: rgba(12, 30, 66, 0.6) !important;
+}
+
+/* Bar that appears on top when scrolling */
+.main-topBar-overlay {
+    background-color: transparent !important;
+}
+
+/* --------------------------------- */
+/* Main background with custom image */
+/* --------------------------------- */
+
+.Root,
+.Root__top-container {
+    background-color: unset !important;
+    background-size: cover;
+    background-position: center;
+}
+
+/* ------------- */
+/* Progress bars */
+/* ------------- */
+
+.progress-bar__slider,
+[data-testid="progress-bar-handle"],
+.x-progressBar-handle {
+    transform: translate(-50%, -50%) !important;
+    margin-left: 0 !important; /* centers the circle under the cursor: translate already centers it, the stock -6px pushed it left */
+    background-color: var(--spice-button-active) !important;
+    background-image: none;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    box-shadow: 0 0 6px rgba(var(--spice-rgb-button), 0.9);
+    display: flex;
+}
+
+.aZtKYi6r4EG1_WHGpmn9,
+.x-progressBar-fillColor,
+.x-progressBar-foreground {
+    background-color: transparent !important;
+    background-image: linear-gradient(
+        90deg,
+        var(--spice-button) 0%,
+        var(--spice-button-active) 100%
+    );
+}
+
+/* ---------------------------- */
+/* Action bar under page header */
+/* ---------------------------- */
+
+.main-actionBar-ActionBar,
+.main-actionBar-ActionBarRow,
+[data-testid="action-bar"],
+[data-testid="action-bar-row"],
+:has(> .main-actionBarBackground-background),
+:has(> .playlist-playlist-actionBarBackground-background) {
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+/* ------------------------------------ */
+/* Hover and selection use accent colour */
+/* ------------------------------------ */
+
+.encore-dark-theme,
+.encore-dark-theme .encore-base-set {
+    --background-highlight: rgba(var(--spice-rgb-button), 0.18) !important;
+    --background-press: rgba(var(--spice-rgb-button), 0.28) !important;
+    --list-row-hover-bg: rgba(var(--spice-rgb-button), 0.18) !important;
+}
+
+[class*="list-row--interactive"]:hover,
+[class*="list-row--interactive"][data-hovered],
+[class*="table-row--hoverable"]:hover,
+[class*="table-row--selected"],
+.main-trackList-trackListRow:hover,
+.main-trackList-selected,
+.main-card-card:hover,
+.main-card-card[data-context-menu-open="true"],
+.view-homeShortcutsGrid-shortcut:hover,
+.main-yourLibraryX-listItem:hover,
+[role="row"]:hover > .main-trackList-trackListRow {
+    background: rgba(var(--spice-rgb-button), 0.18) !important;
+}
+
+/* ---------------------- */
+/* Transparent Background */
+/* ---------------------- */
+
+/* Global */
+.Root__globalNav,
+.global-nav > *,
+/* Top bar */
+.Root__nav-bar,
+#global-nav-bar,
+
+.main-entityHeader-container > *,
+.playlist-playlist-playlistContent,
+
+/* Playlist colored background */
+.main-entityHeader-backgroundColor,
+._ddPhxHdxmpT13IbjTmr,
+.QqprhKqwqIsC3c9SIKOE,
+.sxMpFt17cJVTesE9u6fX,
+.playlist-playlist-actionBarBackground-background,
+.main-actionBarBackground-background,
+.lyrics-lyrics-background,
+.main-view-container__scroll-node-child
+    > main
+    > section
+    > div
+    > div:nth-child(2),
+.Bdcf5g__Rug3TGqSdbiy,
+[data-testid="playlist-page"] [data-testid="entity-header"] > *,
+
+/* Bottom bar of the app */
+.Root__now-playing-bar,
+:has(>[data-testid="now-playing-bar"]),
+.Root__now-playing-bar > button,
+:has(>[data-testid="now-playing-bar"]) > button,
+
+/* Sidebar left your library */
+#Desktop_LeftSidebar_Id,
+.YourLibraryX,
+.main-yourLibraryX-libraryRootlist [role="presentation"],
+.main-yourLibraryX-libraryRootlist [aria-rowindex="1"],
+
+#Desktop_PanelContainer_Id::before,
+.main-home-homeHeader,
+.main-view-container__scroll-node-child > * > *,
+.artist-artistDiscography-headerContainer,
+.main-view-container__scroll-node-child > main > section > div:last-child,
+.search-searchCategory-contentArea::after,
+
+/* Small black gradient on rhs video player */
+.main-nowPlayingView-contextItemInfo::before,
+.f8pB2G3XUFXNNPQ_Ppxb:before,
+
+.Box-group-naked-listRow-isInteractive-hasLeadingOrMedia-draggable-minBlockSize_56px,
+/* Artist page colored background */
+    .main-view-container
+    .before-scroll-node
+    > *
+    > :last-child,
+.main-view-container .before-scroll-node > * > :last-child:after,
+.oCSWtOAH_CgjIsi_H_PS,
+[data-testid="overscroll-background"],
+
+/* Fullscreen artist page on playing music */
+/* [data-overlayscrollbars-viewport="scrollbarHidden overflowXHidden overflowYScroll"]>*>*>*>*>*:first-child, */
+
+/* Right sidebar for queue */
+.Root__right-sidebar > *,
+.iZl4hCeW2xyCCK5nSCCL,
+
+/* Right sidebar collapsed */
+.Root__right-sidebar-fauxMainViewEnd > *,
+.SC_eWQl28srvyLED > *,
+
+/* Fullscreen lyrics */
+[data-overlayscrollbars-initialize="true"]:has(#VideoPlayerCinema_ReactPortal),
+.lyrics-lyrics-container:first-child,
+:has(+ .lyrics-lyrics-container),
+/* Spicetify marketplace */
+.marketplace-header
+
+/* Remove bg */ {
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+/* ---------------------------- */
+/* See through black background */
+/* ---------------------------- */
+
+/* Bottom now Playing bar */
+.main-nowPlayingBar-nowPlayingBar,
+[data-testid="now-playing-bar"],
+
+.view-homeShortcutsGrid-shortcut,
+#Desktop_PanelContainer_Id,
+/* Center main view in the middle of the screen */
+.Root__main-view,
+#main-view,
+
+/* Sidebar left your library */
+#Desktop_LeftSidebar_Id > * > *,
+.main-yourLibraryX-library,
+
+/* Right sidebar collapsed */
+.Root__right-sidebar-overlay,
+.wJiY1vDfuci2a4db,
+.Clgyk1V8iQGkU1G6m5Lo,
+
+/* Filter tags */
+.ChipInnerComponent-sm {
+    background-color: var(--spice-main-elevated) !important;
+}
+
+/* --------------- */
+/* Rounded corners */
+/* --------------- */
+
+.main-nowPlayingBar-nowPlayingBar,
+[data-testid="now-playing-bar"],
+#Desktop_PanelContainer_Id {
+    border-radius: 8px;
+}
+
+/* -------------------------- */
+/* Artist page image gradient */
+/* -------------------------- */
+
+[data-testid="background-image"],
+.main-view-container .before-scroll-node > * > :first-child {
+    mask-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0)
+    );
+    position: absolute;
+}
+
+/* Rotate cat paw previous and next buttons */
+[data-testid="control-button-skip-forward"] {
+    rotate: 90deg;
+}
+
+[data-testid="control-button-skip-back"] {
+    rotate: -90deg;
+}
+
+/* ------------ */
+/* No Opacctity */
+/* ------------ */
+
+/* Right sidebar collapsed */
+.Root__right-sidebar-collapsed
+.Root__right-sidebar-peekContent[aria-hidden="true"],
+.fEThIghNSPAx5Xs3 .a_fKt7xvd8od_kEb[aria-hidden="true"] {
+    opacity: 0;
+}
+
+/* ---- */
+/* MISC */
+/* ---- */
+
+[data-tippy-root] form {
+    --background-elevated-base: unset;
+}
+
+.Root__top-container:has(#VideoPlayerCinema_ReactPortal) {
+    padding: 0;
+}
+
+/* Do not display background elements when fullscreen lyrics */
+#main:has(#VideoPlayerCinema_ReactPortal) {
+    & .Root__main-view,
+    .Root__right-sidebar,
+    .Root__nav-bar {
+        display: none !important;
+    }
+
+    /* .Root__globalNav {
+        background: black !important;
+    } */
+}
+
+/* Do not display main view when expanded library */
+#main:not(:has(#Desktop_LeftSidebar_Id > .LayoutResizer__resize-bar))
+.Root__main-view,
+#main:not(:has(#Desktop_LeftSidebar_Id > .LayoutResizer__resize-bar))
+#main-view {
+    display: none !important;
+}
+
+:has([data-overlayscrollbars-initialize="true"]):has(
+    #VideoPlayerCinema_ReactPortal
+) {
+    outline: none !important;
+}
