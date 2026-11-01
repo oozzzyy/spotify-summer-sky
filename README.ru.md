@@ -6,9 +6,15 @@
 
 ![Иллюстрация: волна в строке прогресса](docs/wave-bar.svg)
 
-![Превью оригинальной темы Summer Sky](https://github.com/Adrien5902/SpicetifyCat/blob/main/themes/Summer_Sky/preview.png?raw=true)
+**Было:** оригинальная Summer Sky от Adrien5902.
 
-*Превью оригинальной темы Summer Sky от Adrien5902. Эта версия темнее и прозрачнее.*
+![Было: оригинальная тема Summer Sky на странице «Любимые треки»](https://github.com/Adrien5902/SpicetifyCat/blob/main/themes/Summer_Sky/preview.png?raw=true)
+
+**Стало:** эта версия на той же странице, темнее и прозрачнее.
+
+![Стало: эта версия на странице «Любимые треки»](docs/after.png)
+
+*Обложка с синим сердцем личная и в тему не входит. После установки будет оригинальная обложка от Adrien5902.*
 
 Каждая часть работает без другой.
 

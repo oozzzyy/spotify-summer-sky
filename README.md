@@ -6,9 +6,15 @@ A reworked version of the [Summer Sky](https://github.com/Adrien5902/SpicetifyCa
 
 ![Illustration: the wave progress bar](docs/wave-bar.svg)
 
-![Preview of the original Summer Sky theme](https://github.com/Adrien5902/SpicetifyCat/blob/main/themes/Summer_Sky/preview.png?raw=true)
+**Before:** the original Summer Sky by Adrien5902.
 
-*Preview of the original Summer Sky sub-theme by Adrien5902. This version is darker and more see-through.*
+![Before: the original Summer Sky theme on the Liked Songs page](https://github.com/Adrien5902/SpicetifyCat/blob/main/themes/Summer_Sky/preview.png?raw=true)
+
+**After:** this version on the same page, darker and more see-through.
+
+![After: this version on the Liked Songs page](docs/after.png)
+
+*The blue heart cover is a personal image and is not part of the theme. After installing, you will see the original cover from Adrien5902.*
 
 Each part works without the other.
 
